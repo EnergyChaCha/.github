@@ -38,26 +38,27 @@
 
 ## 개발환경 및 기술 스택
 - Frontend
-    - react-native
-    - expo
-    - typescript
+    | Language | Typescript  |
+    | --- | --- |
+    | Framework | Expo, React Native |
+  
 - Backend
-    - java 17
-    - springboot 3.2.4
-    - spring security
-    - spring data jpa
-    - swagger
+    | Language | Java 17 |
+    | --- | --- |
+    | Framework | SpringBoot 3.2.4, Spring Security |
+    | Library | Spring Data JPA, Swagger |
+  
 - Watch
-    - kotlin
-    - WearOS
-    - jetpack-compose
-    - minSdk: 30
-    - compileSdk: 34
-    - targetSdk: 34
-    - Wearable Data Layer API
-    - retrofit2
+    | Language | kotlin |
+    | --- | --- |
+    | OS | WearOS |
+    | SDK | minSdk: 30, compileSdk: 34, targetSdk: 34 |
+    | Framework | Jetpack Compose |
+    | Library | Wearable Data Layer API, Retrofit2 |
+  
 - Infra
-    - EC2 (Ubuntu 22.04 LTS)
-    - TimescaleDB 2.15.2-pg16, pgcrypto extension
-    - Docker
-    - Github actions
+    | Backend-Server | AWS EC2 (Ubuntu 22.04 LTS) |
+    | --- | --- |
+    | Frontend-Server | Netlify |
+    | DB | TimescaleDB 2.15.2-pg16, pgcrypto extension |
+    | CI/CD | Github Actions, AWS CodeDeploy |
